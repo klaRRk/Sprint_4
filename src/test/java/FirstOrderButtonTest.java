@@ -44,7 +44,7 @@ public class FirstOrderButtonTest {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver(); // Хром
         mainPageSamokat = new MainPageSamokat(driver);
         orderDetailsPage = new OrderDetailsPage(driver);

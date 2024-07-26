@@ -40,7 +40,7 @@ public class FAQTest {
     }
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
         mainPage = new MainPageSamokat(driver);
         driver.get(SAMOKAT_URL);
